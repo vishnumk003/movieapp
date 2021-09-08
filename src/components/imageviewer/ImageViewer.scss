@@ -1,0 +1,37 @@
+.image-viewer-component{
+  
+  a{
+    text-decoration: none;
+  }
+  .box-title{
+    background-color: #19181869;
+    display: flex;
+
+
+
+    .title{
+      flex: 2;
+      h4{
+        color:#d6d6d6;
+        font-size: 20px;
+        padding:  10px;
+        text-decoration: none;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: .5px;
+      }
+    }
+    .year{
+
+      p{
+        padding: 11px;
+        color: #d6d6d6;
+      }
+    }
+  }
+  
+  &:hover{
+    box-shadow: 0px 0px 18px 6px rgba(56, 55, 55, 0.5);
+
+  }
+}
